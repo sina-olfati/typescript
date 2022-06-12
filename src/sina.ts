@@ -24,6 +24,11 @@
 // let size: Size = Size.medium
 // console.log(size)
 
-const enum Size { small = 2, medium, large }
-let size: Size = Size.large
-console.log(size)
+// const enum Size { small = 2, medium, large }
+// let size: Size = Size.large
+// console.log(size)
+
+
+function one (a: string, b: number): string {
+    return a + b
+}
