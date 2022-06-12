@@ -1,4 +1,4 @@
 "use strict";
-let user = ["sina", 20];
-user.push(1);
+let size = 4;
+console.log(size);
 //# sourceMappingURL=sina.js.map

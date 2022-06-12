@@ -16,5 +16,14 @@
 // }
 
 
-let user: [string, number] = ["sina", 20]
-user.push(1)
+// let user: [string, number] = ["sina", 20]
+// user.push(1)
+
+
+// enum Size { small, medium, large }
+// let size: Size = Size.medium
+// console.log(size)
+
+const enum Size { small = 2, medium, large }
+let size: Size = Size.large
+console.log(size)
