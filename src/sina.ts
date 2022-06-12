@@ -30,5 +30,9 @@
 
 
 function one (a: string, b: number): string {
+    let x
+    if(a === "sina") {
+        return a 
+    }
     return a + b
 }
