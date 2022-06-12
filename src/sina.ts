@@ -10,6 +10,11 @@
 //     age += 10
 // console.log(age)
 
-function render(document) {
-    console.log(document)
-}
+
+// function render(document) {
+//     console.log(document)
+// }
+
+
+let user: [string, number] = ["sina", 20]
+user.push(1)

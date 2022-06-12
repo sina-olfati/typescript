@@ -1,6 +1,4 @@
 "use strict";
-let age = 20;
-if (age < 50)
-    age += 10;
-console.log(age);
+let user = ["sina", 20];
+user.push(1);
 //# sourceMappingURL=sina.js.map
