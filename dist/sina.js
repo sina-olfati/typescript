@@ -1,6 +1,6 @@
 "use strict";
-let a = "sina";
-let b = 10;
-let c = true;
-let d = "sina";
-console.log(a);
+let age = 20;
+if (age < 50)
+    age += 10;
+console.log(age);
+//# sourceMappingURL=sina.js.map
