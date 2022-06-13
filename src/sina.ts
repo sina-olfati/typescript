@@ -29,10 +29,24 @@
 // console.log(size)
 
 
-function one (a: string, b: number): string {
-    let x
-    if(a === "sina") {
-        return a 
-    }
-    return a + b
-}
+// function one (a: string, b: number): string {
+//     let x
+//     if(a === "sina") {
+//         return a 
+//     }
+//     return a + b
+// }
+
+// one("sina", 10)
+
+
+let user: { name: string,
+     age: number,
+     logging: (message: string) => void
+     } = { 
+        name: "sina",
+        age: 20,
+        logging: (message: string) => {
+            console.log(message)
+        }
+        }
