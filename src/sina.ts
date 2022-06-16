@@ -57,14 +57,17 @@
 // }
 
 
-type A = {
-  a: () => void;
-};
-type B = {
-  b: () => void;
-};
-type C = A & B;
-let thing: C = {
-  a: () => {},
-  b: () => {},
-};
+// type A = {
+//   a: () => void;
+// };
+// type B = {
+//   b: () => void;
+// };
+// type C = A & B;
+// let thing: C = {
+//   a: () => {},
+//   b: () => {},
+// };
+
+
+let a: "kg" | "lbs" = "kg"

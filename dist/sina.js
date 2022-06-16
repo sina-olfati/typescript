@@ -1,6 +1,3 @@
 "use strict";
-let thing = {
-    a: () => { },
-    b: () => { }
-};
+let a = "kg";
 //# sourceMappingURL=sina.js.map
