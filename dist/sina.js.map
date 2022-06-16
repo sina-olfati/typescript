@@ -1,1 +1,1 @@
-{"version":3,"file":"sina.js","sourceRoot":"","sources":["../src/sina.ts"],"names":[],"mappings":";AA+CA,IAAI,IAAI,GAAa;IACb,IAAI,EAAE,MAAM;IACZ,GAAG,EAAE,EAAE;IACP,OAAO,EAAE,CAAC,OAAe,EAAE,EAAE;QACzB,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAA;IACxB,CAAC;CACA,CAAA"}
+{"version":3,"file":"sina.js","sourceRoot":"","sources":["../src/sina.ts"],"names":[],"mappings":";AAyDA,SAAS,OAAO,CAAC,EAAmB;IAChC,IAAG,OAAO,EAAE,KAAK,QAAQ,EAAE;QAC3B,OAAO,EAAE,GAAG,GAAG,CAAA;KACd;SAAM;QACH,OAAO,QAAQ,CAAC,EAAE,CAAC,GAAG,GAAG,CAAA;KAC5B;AACL,CAAC"}

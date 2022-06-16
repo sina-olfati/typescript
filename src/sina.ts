@@ -39,16 +39,26 @@
 
 // one("sina", 10)
 
-type Employee = {
-    name: string,
-     age: number,
-     logging: (message: string) => void
-}
 
-let user: Employee = { 
-        name: "sina",
-        age: 20,
-        logging: (message: string) => {
-            console.log(message)
-        }
-        }
+// type Employee = {
+//     name: string,
+//      age: number,
+//      logging: (message: string) => void
+// }
+
+// let user: Employee = { 
+//         name: "sina",
+//         age: 20,
+//         logging: (message: string) => {
+//             console.log(message)
+//         }
+//         }
+
+
+function kgTOLbs(kg: number | string): number {
+    if(typeof kg === "number") {
+    return kg * 2.2
+    } else {
+        return parseInt(kg) * 2.2
+    }
+}
