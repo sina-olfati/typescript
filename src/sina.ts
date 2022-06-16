@@ -70,4 +70,7 @@
 // };
 
 
-let a: "kg" | "lbs" = "kg"
+// let a: "kg" | "lbs" = "kg"
+
+
+let a: string | null | undefined  = undefined

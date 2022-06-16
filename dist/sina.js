@@ -1,3 +1,3 @@
 "use strict";
-let a = "kg";
+let a = undefined;
 //# sourceMappingURL=sina.js.map
