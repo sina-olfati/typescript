@@ -39,11 +39,13 @@
 
 // one("sina", 10)
 
-
-let user: { name: string,
+type Employee = {
+    name: string,
      age: number,
      logging: (message: string) => void
-     } = { 
+}
+
+let user: Employee = { 
         name: "sina",
         age: 20,
         logging: (message: string) => {
